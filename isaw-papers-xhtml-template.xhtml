@@ -35,6 +35,8 @@
  <link rel="dcterms:isPartOf" href="urn:issn:2164-1471" />
  <link rel="dcterms:isPartOf" href="http://isaw.nyu.edu/publications/isaw-papers" />
 
+<link rel="stylesheet" href="isaw-papers.css"/>
+
  </head>
  
  
@@ -48,7 +50,7 @@
  
  <h1 rel="dcterms:title">An XHTML 5 Template for ISAW Papers</h1>
  
- <p>by</p>
+ <p style="text-align:center">by</p>
  
  <h2><span rel="dcterms:creator"><a rel="dcterms:identifier" href="http://viaf.org/viaf/220831018" property="foaf:name">Sebastian Heath</a></span></h2>
  
@@ -71,13 +73,24 @@
  <section id="section1">
  <h1>Section 1</h1>
  
- <p>Paragraph. <span class="reference" rel="dcterms:references" typeof="dcterms:Location"><a rel="rdfs:isDefinedBy" href="http://pleiades.stoa.org/places/570347" property="rdfs:label">Kenchreai</a></span>.</p>
+ <p id="p1">Paragraph. <span class="reference" rel="dcterms:references" typeof="dcterms:Location"><a rel="rdfs:isDefinedBy" href="http://pleiades.stoa.org/places/570347" property="rdfs:label">Kenchreai</a></span>.</p>
  </section>
  
  <section id="section2">
  <h1>Section 2</h1>
  
- <p>Paragraph. Strabo (<span rel="dcterms:references" typeof="dcterms:Text"><a rel="rdfs:isDefinedBy" href="http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:8.6.22" property="rdfs:label"><i>Geographies</i> 8.6.22</a></span>).</p>
+ <p id="p2" class="textindent0">Paragraph. Strabo (<span rel="dcterms:references" typeof="dcterms:Text"><a rel="rdfs:isDefinedBy" href="http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:8.6.22" property="rdfs:label"><i>Geographies</i> 8.6.22</a></span>).</p>
+ 
+ <figure id="figure1">
+  <img src="http://dlib.nyu.edu/awdl/isaw/isaw-papers/10/images/figure04.png" />
+  <figcaption>Originally published as Figure 4 in <a href="http://dlib.nyu.edu/awdl/isaw/isaw-papers/10/images/figure04.png"><i>ISAW Papes</i> 10</a></figcaption>
+ </figure>
+ 
+ </section>
+ 
+ <section>
+ <h1>RDFa Distiller Link</h1>
+<p><a href="http://rdf.greggkellogg.net/distiller?format=turtle&amp;in_fmt=rdfa&amp;validate=true&amp;vocab_expansion=true&amp;uri=http://isawnyu.github.io/isaw-papers-xhtml-template/isaw-papers-xhtml-template.xhtml">Link</a>. This will show the triples in the most recent version that has been pushed to GitHub.</p>
  </section>
  
 <footer>
