@@ -74,32 +74,88 @@
  <section id="section1">
  <h1>Section 1</h1>
  
- <p id="p1">Paragraph, with class="textindent0". <span class="reference" rel="dcterms:references" typeof="dcterms:Location"><a rel="rdfs:isDefinedBy" href="http://pleiades.stoa.org/places/570347" property="rdfs:label">Kenchreai</a></span>.</p>
- 
- <p id="p2">Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation.</p>
- 
+ <p id="p1" class="textindent0">Paragraph, with class="textindent0". Use that class value for paragraphs after h1 headings. <span class="reference" rel="dcterms:references" typeof="dcterms:Location"><a rel="rdfs:isDefinedBy" href="http://pleiades.stoa.org/places/570347" property="rdfs:label">Kenchreai</a></span>. See the source of this document for the RDFa markup around the word 'Kenchreai'. The 'p' element has an 'id' attribute.</p> 
+
+ <p id="p2">Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation. Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation. Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation.</p> 
  </section>
  
  <section id="section2">
- <h1>Section 2</h1>
+ <h1>Example Figure</h1>
  
  <p id="p3" class="textindent0">Paragraph. Strabo (<span rel="dcterms:references" typeof="dcterms:Text"><a rel="rdfs:isDefinedBy" href="http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:8.6.22" property="rdfs:label"><i>Geographies</i> 8.6.22</a></span>).</p>
  
  <figure id="figure1">
-  <img src="http://dlib.nyu.edu/awdl/isaw/isaw-papers/10/images/figure04.png" />
-  <figcaption>Originally published as Figure 4 in <a href="http://dlib.nyu.edu/awdl/isaw/isaw-papers/10/images/figure04.png"><i>ISAW Papers</i> 10</a></figcaption>
+  <img id="img1" src="http://dlib.nyu.edu/awdl/isaw/isaw-papers/10/images/figure04.png" />
+  <figcaption>Originally published as Figure 4 in <a href="http://dlib.nyu.edu/awdl/isaw/isaw-papers/10/#figure04"><i>ISAW Papers</i> 10</a></figcaption>
  </figure>
  
  </section>
+
+<section id="section3">
+<h1>Example Table</h1>
+
+<p id="p33" class="textindent0">Tables should have colgroup and caption elements.</p>
+
+<table id="table1" style="width:80%;margin-left:auto;margin-right:auto; margin-bottom:2em">
+<caption style="margin-left:auto;margin-right:auto;margin-bottom:.5em">Table 1: Quantification of 501 LRA 1-5 rims</caption>
+ <colgroup>
+  <col style="width:.75in"/>
+  <col style="width:.75in"/>
+  <col style="width:.75in"/>
+  <col style="width:.75in"/>
+ </colgroup>
+
+<thead>
+<tr>
+<th style="text-align:left">Type</th>
+<th align="left">Count</th>
+<th align="left">Percent</th>
+<th align="left">Origin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LRA2</td>
+<td>361</td>
+<td>72.1</td>
+<td>Aegean</td>
+</tr>
+<tr>
+<td>LRA1</td>
+<td>51</td>
+<td>10.2</td>
+<td>Cilicia/Cyprus</td>
+</tr>
+<tr>
+<td>LRA5</td>
+<td>46</td>
+<td>9.2</td>
+<td>N. Palestine</td>
+</tr>
+<tr>
+<td>LRA4</td>
+<td>39</td>
+<td>7.8</td>
+<td>S. Palestine/Gaza</td>
+</tr>
+<tr>
+<td>LRA3</td>
+<td>4</td>
+<td>0.8</td>
+<td>SW Anatolia</td>
+</tr>
+</tbody>
+</table>
+</section>
  
-   <section  id="section3">
- <h1>W3  Validator Link</h1>
-<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fisawnyu.github.io%2Fisaw-papers-xhtml-template%2Fisaw-papers-xhtml-template.xhtml">Link</a>. This will validate the XHTML. Note that there may well be errors on the @rel values. You can use the "message filtering" button to hide those.</p>
+ <section  id="section3">
+ <h1>W3 Validator Link</h1>
+<p class="textindent0"><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fisawnyu.github.io%2Fisaw-papers-xhtml-template%2Fisaw-papers-xhtml-template.xhtml">Link</a>. This will validate the XHTML. Note that there may well be errors on the @rel values. You can use the "message filtering" button to hide those.</p>
  </section>
  
  <section id="section4">
  <h1>RDFa Distiller Link</h1>
-<p><a href="http://rdf.greggkellogg.net/distiller?format=turtle&amp;in_fmt=rdfa&amp;validate=true&amp;vocab_expansion=true&amp;uri=http://isawnyu.github.io/isaw-papers-xhtml-template/isaw-papers-xhtml-template.xhtml">Link</a>. This will show the triples in the most recent version that has been pushed to GitHub.</p>
+<p class="textindent0"><a href="http://rdf.greggkellogg.net/distiller?format=turtle&amp;in_fmt=rdfa&amp;validate=true&amp;vocab_expansion=true&amp;uri=http://isawnyu.github.io/isaw-papers-xhtml-template/isaw-papers-xhtml-template.xhtml">Link</a>. This will show the triples in the most recent version that has been pushed to GitHub.</p>
  </section>
  
  
