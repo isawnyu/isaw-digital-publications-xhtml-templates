@@ -61,9 +61,13 @@
  <div id="toc">
  <p>Table of Contents</p>
  <ul>
-  <li><a href="#section1">Section 1</a></li>
+  <li><a href="#section1">Example Paragraphs</a></li>
   
-  <li><a href="#section2">Section 2</a></li>
+  <li><a href="#section2">Example Footnote</a></li>
+  
+  <li><a href="#section3">Example Figure</a></li>
+  
+  <li><a href="#section4">Example Table</a></li>
  </ul>
  </div>
  
@@ -71,14 +75,22 @@
  
  
  <section id="section1">
- <h1>Section 1</h1>
+ <h1>Paragraphs</h1>
  
  <p id="p1" class="textindent0" rel="dcterms:hasPart" resource="#p1">Paragraph, with class="textindent0". Use that class value for paragraphs after h1 headings. <span class="reference" rel="dcterms:references" typeof="dcterms:Location"><a rel="rdfs:isDefinedBy" href="http://pleiades.stoa.org/places/570347" property="rdfs:label">Kenchreai</a></span>. See the source of this document for the RDFa markup around the word 'Kenchreai'. The 'p' element has an 'id' attribute.</p> 
 
  <p id="p2" rel="dcterms:hasPart" resource="#p2">Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation. Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation. Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation.</p> 
  </section>
  
- <section id="section2">
+ 
+  <section id="section2">
+ <h1>Example Footnote</h1>
+ 
+ <p id="p4" class="textindent0" rel="dcterms:hasPart" resource="#p4">The shipwreck has been dated around 60 B.C.<sup><a class="footnote-reference" id="footnote-reference-1" href="#footnote-1">1</a></sup></p>
+ 
+ </section>
+ 
+ <section id="section3">
  <h1>Example Figure</h1>
  
  <p id="p3" class="textindent0" rel="dcterms:hasPart" resource="#p3">Paragraph. Strabo (<span rel="dcterms:references" typeof="dcterms:Text"><a rel="rdfs:isDefinedBy" href="http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:8.6.22" property="rdfs:label"><i>Geographies</i> 8.6.22</a></span>).</p>
@@ -90,17 +102,12 @@
  
  </section>
  
- <section id="section3">
- <h1>Example Footnote</h1>
- 
- <p id="p4" class="textindent0" rel="dcterms:hasPart" resource="#p4">The shipwreck has been dated around 60 B.C.<sup><a class="footnote-reference" id="footnote-reference-1" href="#footnote-1">1</a></sup></p>
- 
- </section>
+
 
 <section id="section3">
 <h1>Example Table</h1>
 
-<p id="p33" class="textindent0"  rel="dcterms:hasPart" resource="#p33">Tables should have colgroup and caption elements.</p>
+<p id="p5" class="textindent0"  rel="dcterms:hasPart" resource="#p5">Tables should have colgroup and caption elements.</p>
 
 <table id="table1" style="width:80%;margin-left:auto;margin-right:auto; margin-bottom:2em">
 <caption style="margin-left:auto;margin-right:auto;margin-bottom:.5em">Table 1: Quantification of 501 LRA 1-5 rims</caption>
@@ -152,6 +159,10 @@
 </tr>
 </tbody>
 </table>
+
+<p id="p6" rel="dcterms:hasPart" resource="#p5">Figure from <i>ISAW Papers</i> 11.<sup><a class="footnote-reference" id="footnote-reference-2" href="#footnote-2">2</a></sup></p>
+
+
 </section>
  
  <section  id="section3">
@@ -169,6 +180,8 @@
  
  <p class="footnote" id="footnote-1"><sup><a href="#footnote-reference-1">1</a></sup> Weinberg et al. 1965, Price 1974, Cristopoulou et al. 2012, Kaltsas et al. 2012. This paper is partly based on data processed from the archive of experimental investigations by the Antikythera Mechanism Research Project in collaboration with the National Archeological Museum of Athens (See Freeth et al. 2006). [Excerpted for this template from Freeth and Jones (2012)]</p>
  
+ <p class="footnote" id="footnote-2"><sup><a href="#footnote-reference-2">2</a></sup> &lt;<a href="">http://dlib.nyu.edu/awdl/isaw/isaw-papers/11/</a>&gt;.</p>
+ 
  </section>
  
  <section id="references">
@@ -180,7 +193,7 @@
 <p id="reference-2" class="work-cited" rel="dcterms:references" typeof="dcterms:BibliographicResource"><span property="dcterms:bibliographicCitation">Megaw, A.H.S., and R. Jones. 1983. “Byzantine and Allied Pottery: A Contribution by Chemical Analysis to Problems of Origin and Distribution.” <i>The Annual of the British School at Athens</i> 78: 235–63.</span></p>
 
 
-<p id="reference-3" class="work-cited" rel="dcterms:references" typeof="dcterms:BibliographicResource"><span property="dcterms:bibliographicCitation">Tony Freeth and Alexander Jones. 2012. The Cosmos in the Antikythera Mechanism. <i>ISAW Papers, 4</i>.</span> <a rel="dcterms:identifier" href="http://hdl.handle.net/2333.1/xgxd26r7">Handle: 2333.1/xgxd26r7</a></p>
+<p id="reference-3" class="work-cited" rel="dcterms:references" typeof="dcterms:BibliographicResource"><span property="dcterms:bibliographicCitation">Tony Freeth and Alexander Jones. 2012. The Cosmos in the Antikythera Mechanism. <i>ISAW Papers, 4</i>.</span> &lt;<a rel="dcterms:identifier" href="http://hdl.handle.net/2333.1/xgxd26r7">http://hdl.handle.net/2333.1/xgxd26r7</a>&gt;</p>
  
  </section>
  
@@ -189,7 +202,7 @@
 <footer>
 <p class="editorial-note"><a rel="dcterms:isPartOf" href="http://isaw.nyu.edu/publications/isaw-papers"><i>ISAW Papers</i></a> (ISSN 2164-1471) is a publication of the <a rel="dcterms:publisher" property="dcterms:publisher" href="http://isaw.nyu.edu">Institute for the Study of the Ancient World</a>, <a href="http://nyu.edu/">New York University</a>. This article was suggested for publication by ????? as a member of the ISAW faculty.</p>
 	
-<p class="copyright" style="margin-top:1em;text-align:center;color:gray">©2015 <span rel="cc:attributionName">"The Author(s)"</span>. Distributed under the terms of the <a rel="cc:license" href="http://creativecommons.org/licenses/by/4.0/" style="color:gray">Creative Commons Attribution 4.0 International</a> license. Additional rights holders and licenses for figures noted in captions as necessary.</p>
+<p class="copyright" style="margin-top:1em;text-align:center;color:gray">©2016-17 <span rel="cc:attributionName">"The Author(s)"</span>. Distributed under the terms of the <a rel="cc:license" href="http://creativecommons.org/licenses/by/4.0/" style="color:gray">Creative Commons Attribution 4.0 International</a> license. Additional rights holders and licenses for figures noted in captions as necessary.</p>
 </footer>
  
  </body>
