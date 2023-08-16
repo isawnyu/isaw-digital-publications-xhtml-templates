@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- [html-validate-disable void-style, no-inline-style, no-trailing-whitespace] -->
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" prefix="bibo: http://purl.org/ontology/bibo/
 cc: http://creativecommons.org/ns#
 dcmitype: http://purl.org/dc/dcmitype/
@@ -18,12 +19,12 @@ skos: http://www.w3.org/2004/02/skos/core#
 <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
 <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
 
-<meta name="DC.title" content="An XHTML 5 Template for ISAW Papers" /> 
+<meta name="DC.title" content="An XHTML 5 Template for ISAW Papers" />
 <meta name="DC.date" content="2016-00-00" />
 <meta name="DC.format" content="application/xhtml+xml" />
-<meta name="DC.creator" content="Sebastian Heath" /> 
+<meta name="DC.creator" content="Sebastian Heath" />
 <meta name="DC.creator" content="Other authors, repeat as necessary" />
-<meta name="DC.language" content="en" /> 
+<meta name="DC.language" content="en" />
 <meta name="DC.abstract" content="Put full plain-text of abstract here." />
 <meta name="DC.publisher" content="Institute for the Study of the Ancient World, New York University" />
 <meta name="DC.subject" content="Scholarly Electronic Publishing" />
@@ -56,7 +57,7 @@ skos: http://www.w3.org/2004/02/skos/core#
 
 <div class="abstract"><em>Abstract: </em><span id="abstract" property="dcterms:abstract">An abstract goes here.</span></div>
 
-<div class="subjects"><em>Library of Congress Subjects:</em> <a rel="dcterms:subject" href="http://id.loc.gov/authorities/subjects/sh98003953">Scholarly Electronic Publishing</a>; <a rel="dcterms:subject" href="http://id.loc.gov/authorities/subjects/sh85105855">Pottery, Roman</a>.</p>
+<div class="subjects"><em>Library of Congress Subjects:</em> <a rel="dcterms:subject" href="http://id.loc.gov/authorities/subjects/sh98003953">Scholarly Electronic Publishing</a>; <a rel="dcterms:subject" href="http://id.loc.gov/authorities/subjects/sh85105855">Pottery, Roman</a>.</div>
 
 <div id="toc">
 <p>Table of Contents</p>
@@ -78,7 +79,7 @@ skos: http://www.w3.org/2004/02/skos/core#
 <h2>Paragraphs</h2>
 
 <!-- template: paragraph text should be on one line -->
-<p id="p1" class="textindent0">Paragraph, with class="textindent0". Use that class value for paragraphs after h1 headings. <span class="reference" rel="dcterms:references" typeof="dcterms:Location"><a rel="rdfs:isDefinedBy" href="http://pleiades.stoa.org/places/570347" property="rdfs:label">Kenchreai</a></span>. See the source of this document for the RDFa markup around the word 'Kenchreai'. The 'p' element has an 'id' attribute.</p> 
+<p id="p1" class="textindent0">Paragraph, with class="textindent0". Use that class value for paragraphs after h1 headings. <span class="reference" rel="dcterms:references" typeof="dcterms:Location"><a rel="rdfs:isDefinedBy" href="http://pleiades.stoa.org/places/570347" property="rdfs:label">Kenchreai</a></span>. See the source of this document for the RDFa markup around the word 'Kenchreai'. The 'p' element has an 'id' attribute.</p>
 
 <p id="p2">Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation. Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation. Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation.</p> 
 </section>
@@ -96,8 +97,8 @@ skos: http://www.w3.org/2004/02/skos/core#
 <p id="p4" class="textindent0" >Paragraph. Strabo (<span rel="dcterms:references" typeof="dcterms:Text"><a rel="rdfs:isDefinedBy" href="http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:8.6.22" property="rdfs:label"><i>Geographies</i> 8.6.22</a></span>).</p>
 
 <figure id="figure1">
-<img id="img1" src="http://dlib.nyu.edu/awdl/isaw/isaw-papers/10/images/figure04.png" />
-<figcaption>Originally published as Figure 4 in <a href="http://dlib.nyu.edu/awdl/isaw/isaw-papers/10/#figure04"><i>ISAW Papers</i> 10</a></figcaption>
+<img alt="" id="img1" src="figure10.png" />
+<figcaption>Originally published as Figure 10 in <a href="http://dlib.nyu.edu/awdl/isaw/isaw-papers/10/#figure04"><i>ISAW Papers</i> 10</a></figcaption>
 </figure>
 
 </section>
@@ -118,10 +119,10 @@ skos: http://www.w3.org/2004/02/skos/core#
 
 <thead>
 <tr>
-<th style="text-align:left">Type</th>
-<th style="text-align:left">Count</th>
-<th style="text-align:left">Percent</th>
-<th style="text-align:left">Origin</th>
+<th scope="col" style="text-align:left">Type</th>
+<th scope="col" style="text-align:left">Count</th>
+<th scope="col" style="text-align:left">Percent</th>
+<th scope="col" style="text-align:left">Origin</th>
 </tr>
 </thead>
 <tbody>
