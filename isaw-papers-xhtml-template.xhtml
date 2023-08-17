@@ -47,13 +47,13 @@ skos: http://www.w3.org/2004/02/skos/core#
 <body>
 
 <header>
-<h2>ISAW Papers # (202#)</h2>
+<div style="text-align: center">ISAW Papers # (202#)</div>
 
 <h1 rel="dcterms:title">An XHTML 5 Template for ISAW Papers</h1>
 
-<h2><span rel="dcterms:creator"><a rel="dcterms:identifier" href="http://viaf.org/viaf/220831018" property="foaf:name">Sebastian Heath</a></span></h2>
+<div style="text-align: center"><span rel="dcterms:creator"><a rel="dcterms:identifier" href="http://viaf.org/viaf/220831018" property="foaf:name">Sebastian Heath</a></span></div>
 
-<div class="doi"><a rel="dcterms:identifier" href="http://doi.org/2333.1/k98sf96r">http://doi.org/2333.1/k98sf96r</a></div>
+<div class="permanent_url">Permanent URL: <a rel="dcterms:identifier" href="http://handle.net/2333.1/k98sf96r">http://doi.org/2333.1/k98sf96r</a></div>
 
 <div class="abstract"><em>Abstract: </em><span id="abstract" property="dcterms:abstract">An abstract goes here.</span></div>
 
@@ -74,10 +74,10 @@ skos: http://www.w3.org/2004/02/skos/core#
 
 <main>
 <section id="section1">
-<h1>Paragraph</h1>
+<h1>Introduction</h1>
 
 <!-- template: paragraph text should be on one line -->
-<p id="p1" class="textindent0">Paragraph, with class="textindent0". Use that class value for paragraphs after h1 headings. <span class="reference" rel="dcterms:references" typeof="dcterms:Location"><a rel="rdfs:isDefinedBy" href="http://pleiades.stoa.org/places/570347" property="rdfs:label">Kenchreai</a></span>. See the source of this document for the RDFa markup around the word 'Kenchreai'. The 'p' element has an 'id' attribute.</p>
+<p id="p1" class="textindent0">Many ISAW Papers articles start witin an introduction, which is at the 'h1' level. This is a paragraph, with class="textindent0". Use that class value for paragraphs after h1 headings. Here's a link: <span class="reference" rel="dcterms:references" typeof="dcterms:Location"><a rel="rdfs:isDefinedBy" href="http://pleiades.stoa.org/places/570347" property="rdfs:label">Kenchreai</a></span>. See the source of this document for the RDFa markup around the word 'Kenchreai'. The 'p' element has an 'id' attribute formed by 'p#' where # is the sequential index of the p element in the document. There are no p elements in the header as that uses divs for block elements.</p>
 
 <p id="p2">Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation. Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation. Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation.</p>
 
