@@ -60,15 +60,13 @@ skos: http://www.w3.org/2004/02/skos/core#
 <div class="subjects"><em>Library of Congress Subjects:</em> <a rel="dcterms:subject" href="http://id.loc.gov/authorities/subjects/sh98003953">Scholarly Electronic Publishing</a>; <a rel="dcterms:subject" href="http://id.loc.gov/authorities/subjects/sh85105855">Pottery, Roman</a>.</div>
 
 <div id="toc">
-<p>Table of Contents</p>
+
+<div><b>Table of Contents</b></div>
 <ul>
-<li><a href="#section1">Example Paragraphs</a></li>
+<li><a href="#section1">Paragraph</a></li>
 
-<li><a href="#section2">Example Footnote</a></li>
+<li><a href="#section2">Examples of Various</a></li>
 
-<li><a href="#section3">Example Figure</a></li>
-
-<li><a href="#section4">Example Table</a></li>
 </ul>
 </div>
 
@@ -76,22 +74,26 @@ skos: http://www.w3.org/2004/02/skos/core#
 
 <main>
 <section id="section1">
-<h2>Paragraphs</h2>
+<h1>Paragraph</h1>
 
 <!-- template: paragraph text should be on one line -->
 <p id="p1" class="textindent0">Paragraph, with class="textindent0". Use that class value for paragraphs after h1 headings. <span class="reference" rel="dcterms:references" typeof="dcterms:Location"><a rel="rdfs:isDefinedBy" href="http://pleiades.stoa.org/places/570347" property="rdfs:label">Kenchreai</a></span>. See the source of this document for the RDFa markup around the word 'Kenchreai'. The 'p' element has an 'id' attribute.</p>
 
 <p id="p2">Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation. Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation. Normal running paragraph with first line indent. No class attribute. It does have an @id to support individual citation.</p>
+
 </section>
 
 <section id="section2">
+<h1>Examples of Various</h1>
+
+<p class="textindent0">The 'Examples' header is h1. Headers below here are h2 and h3.</p>
+
+
 <h2>Example Footnote</h2>
 
 <p id="p3" class="textindent0" >The shipwreck has been dated around 60 B.C.<sup><a class="footnote-reference" id="footnote-reference-1" href="#footnote-1">1</a></sup></p>
 
-</section>
 
-<section id="section3">
 <h2>Example Figure</h2>
 
 <p id="p4" class="textindent0" >Paragraph. Strabo (<span rel="dcterms:references" typeof="dcterms:Text"><a rel="rdfs:isDefinedBy" href="http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:8.6.22" property="rdfs:label"><i>Geographies</i> 8.6.22</a></span>).</p>
@@ -101,9 +103,7 @@ skos: http://www.w3.org/2004/02/skos/core#
 <figcaption>Originally published as Figure 10 in <a href="http://dlib.nyu.edu/awdl/isaw/isaw-papers/10/#figure04"><i>ISAW Papers</i> 10</a></figcaption>
 </figure>
 
-</section>
 
-<section id="section4">
 <h2>Example Table</h2>
 
 <p id="p5" class="textindent0">Tables should have colgroup and caption elements.</p>
@@ -161,10 +161,14 @@ skos: http://www.w3.org/2004/02/skos/core#
 
 <p id="p6">The above table from <i>ISAW Papers</i> 10 shows counts and perentages of late Roman amphoras from Kenchreai.<sup><a class="footnote-reference" id="footnote-reference-2" href="#footnote-2">2</a></sup></p>
 
+<h3>Heading 3</h3>
+<p>Text text text. There is no heading 4.</p>
+
+
 </section>
 
 <section id="footnotes">
-<h2>Notes</h2>
+<h1>Notes</h1>
 
 <p class="footnote" id="footnote-1"><sup><a href="#footnote-reference-1">1</a></sup> Weinberg et al. 1965, Price 1974, Cristopoulou et al. 2012, Kaltsas et al. 2012. This paper is partly based on data processed from the archive of experimental investigations by the Antikythera Mechanism Research Project in collaboration with the National Archeological Museum of Athens (See Freeth et al. 2006). [Excerpted for this template from Freeth and Jones (2012)]</p>
 
@@ -174,7 +178,7 @@ skos: http://www.w3.org/2004/02/skos/core#
 
 <section id="references">
 
-<h2>References</h2>
+<h1>References</h1>
 
 <p id="reference-1" class="work-cited" rel="dcterms:references" typeof="dcterms:BibliographicResource"><span property="dcterms:bibliographicCitation">Marty, J. 1993. “Three Pottery Deposits and the History of Roman Isthmia.” In <i>The Corinthia in the Roman Period</i>, edited by T. E. Gregory, 115–29. JRA Suppl. 8. Ann Arbor: Journal of Roman Archaeology.</span></p>
 
