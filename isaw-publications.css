@@ -23,6 +23,11 @@ margin-right:3em;
 margin-top:2em;
 }
 
+.volume {
+text-align:center;
+font-weight:bold;
+}
+
 .edition-line {
 tab-size: 8;
 }
